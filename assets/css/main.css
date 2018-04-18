@@ -2,87 +2,106 @@
 body > header > nav{
     height: 150px;
     margin-bottom: 10px;
+   
 }
+
+/* nav */
+/* #navbarNavAltMarkup{
+    background-color: white;
+   
+}
+li.nav-item.nav-link.active{
+    color: black;
+} */
+#navbarNavAltMarkup > ul{
+    
+}
+/* nav */
+
+/* cafrousel */
+
 #carouselExampleIndicators > div > div> img{
     height: 400px;
     margin-bottom: 10px;
 }
 .a{
-    background: black;
+  background-image: url("../../assets/img/superbox-thumb-19.jpg");
     height: 130px;
-    margin-bottom: 2px;
 }
 .b{
-    background: black;
-    height: 130px;
-    margin-bottom: 2px;
-}
-.c{
-    background: black;
+    background-image: url("../../assets/img/superbox-thumb-22.jpg");
     height: 135px;
 }
+.c{
+    background-image: url("../../assets/img/superbox-thumb-24.jpg");
+    height: 135px;
+}
+/* carousel */
+/* Our featured Projects */
 hr{
 margin: 5px 0 15px 0;
 }
-body > main > div > div > div:nth-child(3) > div > div.row > div{
+body > main > div > div:nth-child(3) > div > div.row > div{
 padding: 5px;
 }
-body > main > div > div > div > div > div.row > div > div{
+body > main > div > div > div > div.row > div > div{
     border: none;
     text-align: center;
-    
+
 }
-body > main > div > div > div:nth-child(3) > div > div.row > div > div > div > p.card-text{
+body > main > div > div:nth-child(3) > div > div.row > div > div > div > p.card-text{
     margin-bottom: 2px;
 }
-body > main > div > div > div:nth-child(3) > div > div.row > div > div > div > p:nth-child(2){
+body > main > div > div:nth-child(2) > div > div.row > div> div > div > p:nth-child(3){
     color: #007bff;
 }
-body > main > div > div > div:nth-child(3) > div > div.row > div > div > div> div > span > img{
+
+/* Our featured Projects */
+
+/* rating */
+body > main > div > div > div > div.row > div > div > div > div > span > img{
     height: 15px;
 }
+/* rating */
 
 
-body > main > div > div > div:nth-child(3) > div > div:nth-child(2) > div{
-    padding: 0;
-}
-body > main > div > div > div:nth-child(3) > div > div:nth-child(2) > div > div.row > div{
-    padding: 5px;
-}
-body > main > div > div > div:nth-child(3) > div > div:nth-child(2) > div > div.row > div:nth-child(1) > div > div > div{
+/* first product */
+
+body > main > div > div:nth-child(3)  >  div.row > div:nth-child(1) > div > div{
     border: none;
     text-align: center;
 }
-body > main > div > div > div:nth-child(3) > div > div:nth-child(2) > div > div.row > div:nth-child(1) > div > div > div > div > p{
+body > main > div > div > div:nth-child(3)  div:nth-child(2) > div > div.row > div:nth-child(1) > div > div > div > div > p{
     color: #007bff;
 }
+/* first product */
 
+body > main > div > div:nth-child(2) > div > div:nth-child(2) > div{
+    padding: 0;
+}
 
-
-
-body > main > div > div > div:nth-child(3) > div > div:nth-child(2) > div > div.row > div:nth-child(2) > div > div > div{
+body > main > div > div:nth-child(2) > div > div:nth-child(2) > div > div.row > div> div > div > div{
     border: none;
     text-align: center;
 }
-body > main > div > div > div:nth-child(3) > div > div:nth-child(2) > div > div.row > div:nth-child(2) > div > div > div > div > p{
+body > main > div > div > div:nth-child(3) > div:nth-child(2) > div > div.row > div:nth-child(2) > div > div > div > div > p{
     color: #007bff;
 }
 
+/* first prooduct */
 
 
-
-
-body > main > div > div > div:nth-child(3) > div > div:nth-child(2) > div > div:nth-child(2) > div{
+/* second product */
+body > main > div > div:nth-child(2) > div > div:nth-child(2) > div > div:nth-child(2) > div{
     padding: 0;
 }
-body > main > div > div > div:nth-child(3) > div > div:nth-child(2) > div > div:nth-child(2) > div > div.row > div{
+body > main > div > div:nth-child(2) > div > div:nth-child(2) > div > div:nth-child(2) > div > div.row > div{
     padding: 10px;
-    
 }
+/* second product */
 
 
-
-body > main > div > div > div:nth-child(3) > div > div:nth-child(2) > div > div:nth-child(2) > div > div:nth-child(2) > ul{
+body > main > div > div > div:nth-child(3) > div:nth-child(2) > div > div:nth-child(2) > div > div:nth-child(2) > ul{
     display: inline-flex;
     list-style: none;
     padding-top: 60px;
@@ -90,7 +109,7 @@ body > main > div > div > div:nth-child(3) > div > div:nth-child(2) > div > div:
 }
 
 
-div > div:nth-child(2) > div > div:nth-child(2) > ul > li{
+div:nth-child(2) > div > div:nth-child(2) > ul > li{
     font-size: 14px;
     margin-right: 15px;
 }.x, .y, .z{
@@ -109,8 +128,8 @@ div > div:nth-child(2) > div > div:nth-child(2) > ul > li{
 
 
 
-body > main > div > div > div:nth-child(3) > div > div:nth-child(2) > div > div:nth-child(2) > div > div:nth-child(2) > ul:nth-child(2){
-    padding-left: 380px;
+body > main > div > div > div:nth-child(3) > div:nth-child(2) > div > div:nth-child(2) > div > div:nth-child(2) > ul:nth-child(2){
+    padding-left: 250px;
 }
 
 .social{
