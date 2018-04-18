@@ -32,10 +32,13 @@ body > main > div > div > div > div > div.row > div > div{
     text-align: center;
     
 }
+body > main > div > div > div:nth-child(3) > div > div.row > div > div > div > p.card-text{
+    margin-bottom: 2px;
+}
 body > main > div > div > div:nth-child(3) > div > div.row > div > div > div > p:nth-child(2){
     color: #007bff;
 }
-body > main > div > div > div:nth-child(3) > div > div.row > div:nth-child(1) > div > div> div > span > img{
+body > main > div > div > div:nth-child(3) > div > div.row > div > div > div> div > span > img{
     height: 15px;
 }
 
