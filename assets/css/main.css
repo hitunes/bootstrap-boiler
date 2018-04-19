@@ -1,25 +1,54 @@
-
-body > header > nav{
+/* nav */
+.black{
+    height: 160px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.nav__container{
     height: 150px;
-    margin-bottom: 10px;
+    background-color: black;
    
 }
-
-/* nav */
-/* #navbarNavAltMarkup{
-    background-color: white;
-   
+body > header > div{
+    margin: 0;
 }
-li.nav-item.nav-link.active{
-    color: black;
-} */
-#navbarNavAltMarkup > ul{
-    
+body > header > div > div.row.nav__container > div:nth-child(1) > ul{
+    list-style: none;
+    margin-top: 15px;
+    padding: 0;
+}
+body > header > div > div.row.nav__container > div:nth-child(3) > ul{
+    list-style: none;
+    margin-top: 15px;
+    padding: 0;
+}
+body > header > div > div.row.nav__container > div:nth-child(1) > ul >li{
+    display: inline;
+    color: white;
+}
+body > header > div > div.row.nav__container > div:nth-child(3) > ul >li{
+    display: inline;
+    color: white;
+}
+body > header > div > div.row.nav__container > div:nth-child(2) > img{
+    min-height: 100px;
+    width: 300px;
+}
+
+body > header > div > div > div.col-12.col-sm-2.col-md-12{
+    padding: 0;
+    z-index: 1000;
+}
+body > header > div > div > div.col-12.col-sm-2.col-md-12 > div{
+    padding: 0;
+    z-index: 1000;
 }
 /* nav */
 
-/* cafrousel */
-
+/* carousel */
+body > main > div{
+    padding-left: 0;
+}
 #carouselExampleIndicators > div > div> img{
     height: 400px;
     margin-bottom: 10px;
@@ -132,10 +161,16 @@ body > main > div > div > div:nth-child(3) > div:nth-child(2) > div > div:nth-ch
     padding-left: 250px;
 }
 
-.social{
-    position: absolute;
-    bottom: 10%;
-    left: 5%;
+
+
+
+body > footer > div > div > div.box.d > div > div > div:nth-child(2) > div:nth-child(1) > div > span:nth-child(odd)> img{
+    height: 25px;
+    width: 25px;
+}
+body > footer > div > div > div.box.d > div > div > div:nth-child(2) > div:nth-child(1) > div > span:nth-child(even)> img{
+    height: 25px;
+    width: 25px;
 }
 
 body > footer > div > div > div.box.d > div > div > div.row > div:nth-child(3) > ul{
@@ -194,7 +229,7 @@ body > footer > div > div > div.col-12.col-md-12{
 body > footer > div > div > div.col-12.col-md-12 > div >div> p{
     color: #eee;
 }
-body > footer > div > div > div.col-12.col-md-12 > div > div{
+body > footer > div > div > div.box.d > div{
     padding: 0;
     
 }
@@ -204,10 +239,14 @@ body > footer > div > div > div.col-12.col-md-12 > div > div{
     padding: 15px;
 }
 
-body > footer > div > div > div.box.d > div > div > form{
+body > footer > div > div >  div.box.d > div > div > form{
     display: flex; 
     justify-content: flex-end;
     margin-bottom: 20px;
 
+}
+body > footer > div > div > div.box.d > div > div > div.row > div:nth-child(1) > div > span > img{
+    height: 100px;
+    width: 100px;
 }
 
